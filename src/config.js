@@ -14,26 +14,26 @@ export default {
   /**
    * 站点标题
    */
-  title: '执笔看墨花开💜千千',
+  title: '执笔看墨花开',
   subtitle: '微末凡尘 心向天空',
 
   /**
    * Github Issues 配置【文章、说说、书单、友链】
    */
-  username: 'xlzy520', // github 用户名
+  username: 'Lianhoujian', // github 用户名
   repository: 'blog', // 文章仓库地址
   // token 从中间任意位置拆开成两部分，避免 github 代码检测失效
-  token: ['61bc742e4ca2f84f38b', '64a89b10475556965c4f3'],
+  token: ['f0f56c63a50cfad9560', '7eb9475c326a8ea9a04c7'],
 
   /**
    * Gitalk 配置【评论功能】，详细文档参见：https://github.com/gitalk/gitalk
    */
   gitalk: {
-    clientID: '66ec31f5cac14337fac1',
-    clientSecret: 'ac82e44a98bc60cd5fa4daca86423ae14dc1f42c',
+    clientID: '5d9c883628bbd3978456',
+    clientSecret: '1931d6f7632595f8894d694c9f2622cec4214313',
     repo: 'comment', // 评论仓库地址
-    owner: 'xlzy520',
-    admin: ['xlzy520'],
+    owner: 'Lianhoujian',
+    admin: ['Lianhoujian'],
     distractionFreeMode: false // 是否开始无干扰模式【背景遮罩】
   },
 
