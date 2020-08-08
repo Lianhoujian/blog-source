@@ -84,6 +84,7 @@ export default {
     if (tag) {
       this.handleFilter(tag)
     }
+    console.log(3);
     this.queryTag()
     this.initComment = true
   },

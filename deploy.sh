@@ -9,17 +9,14 @@ npm run build
 # cd 到构建输出的目录下
 cd dist
 
-# 部署到自定义域名，没有自定义域名可注释掉
-echo 'xlzy520.cn' > CNAME
-
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
-  githubUrl=git@github.com:xlzy520/xlzy520.github.io.git
+  githubUrl=git@github.com:Lianhoujian/Lianhoujian.github.io.git
 else
   msg='来自github action的自动部署'
-  githubUrl=https://xlzy520:${GITHUB_TOKEN}@github.com/xlzy520/xlzy520.github.io.git
-  git config --global user.name "xlzy"
-  git config --global user.email "1017866168@qq.com"
+  githubUrl=https://Lianhoujian:${GITHUB_TOKEN}@github.com/Lianhoujian/Lianhoujian.github.io.git
+  git config --global user.name "Lianhoujian"
+  git config --global user.email "1013312097@qq.com"
 fi
 
 git init

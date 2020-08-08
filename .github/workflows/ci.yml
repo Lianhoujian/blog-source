@@ -14,5 +14,5 @@ jobs:
           persist-credentials: false
       - name: run deploy.sh
         env: # 设置环境变量
-          GITHUB_TOKEN: ${{ secrets.github_actions_access_token }} # toKen私密变量
+          GITHUB_TOKEN: ${{ secrets.TOKEN }} # toKen私密变量
         run: npm install && npm run deploy
